@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         
         var message = ""
         if iPhoneHand == myHand {
-            message = "It was a tie!"
+            message = "It's a tie!"
         } else if losesAgainst[iPhoneHand] == myHand {
             message = "iPhone wins!"
         } else {
